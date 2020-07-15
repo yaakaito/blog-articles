@@ -1,0 +1,22 @@
+version: 1
+rules:
+  - expected: Cookie
+  - expected: jQuery
+  - expected: HTML
+  - expected: CSS
+  - expected: JavaScript
+    patterns:
+      - /(java|Java|JAVA)(-|\s)?(script|Script)/
+  - expected: TypeScript
+    patterns:
+      - /(type|Type)(-|\s)?(script|Script)/
+  - expected: Vue.js
+    patterns:
+      - /(V|v)ue(\.js)?/
+  - expected: React
+    patterns:
+      - /(R|r)eact(\.js)?/
+  - expected: GitHub
+  - expected: GitHub Packages
+    patterns:
+      - /GitHub (P|p)ackage(s)?/

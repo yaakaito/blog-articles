@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "preset-ja-technical-writing": true,
+        "no-mix-dearu-desumasu": {
+            "preferInHeader": "",
+            "preferInBody": "ですます",
+            "preferInList": "である",
+            "strict": true
+        },
+        "preset-ja-spacing": true,
+        "@textlint-ja/no-synonyms": true,
+        "prh": {
+            "checkCodeComment": ["js", "javascript", "ts", "typescript", "html", "css"],
+            "rulePaths" :["./prh.yml"]
+        }
+    },
+    "filters": {
+        "comments": true,
+        "whitelist": {
+            "allow": [
+            ]
+        }
+    }
+}
