@@ -13,6 +13,7 @@ rules:
   - expected: Vue.js
     patterns:
       - /(V|v)ue(\.js)?/
+  - expected: ESLint
   - expected: React
     patterns:
       - /(R|r)eact(\.js)?/
@@ -20,3 +21,4 @@ rules:
   - expected: GitHub Packages
     patterns:
       - /GitHub (P|p)ackage(s)?/
+  - expected: Monorepo
